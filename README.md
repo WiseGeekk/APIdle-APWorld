@@ -1,2 +1,3 @@
-# APIdle
-Source code for Idle AP game
+# APIdle APworld
+Source code for Idle AP games .apworld
+
