@@ -1,7 +1,7 @@
 from BaseClasses import Tutorial
 from worlds.AutoWorld import WebWorld
 
-from .options import option_groups, option_presets
+#from .options import option_groups, option_presets
 
 
 class APIdleWebWorld(WebWorld):
@@ -22,5 +22,5 @@ class APIdleWebWorld(WebWorld):
     tutorials = [setup_en]
 
     # If we have option groups and/or option presets, we need to specify these here as well.
-    option_groups = option_groups
-    options_presets = option_presets
+    #option_groups = option_groups
+    #options_presets = option_presets

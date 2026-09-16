@@ -91,8 +91,9 @@ from Options import Choice, OptionGroup, PerGameCommonOptions, Range, Toggle
 
 # We must now define a dataclass inheriting from PerGameCommonOptions that we put all our options in.
 # This is in the format "option_name_in_snake_case: OptionClassName".
-# @dataclass
-# class APIdleOptions(PerGameCommonOptions):
+@dataclass
+class APIdleOptions(PerGameCommonOptions):
+    pass
     # hard_mode: HardMode
     # hammer: Hammer
     # extra_starting_chest: ExtraStartingChest
@@ -103,7 +104,7 @@ from Options import Choice, OptionGroup, PerGameCommonOptions, Range, Toggle
 
 
 # If we want to group our options by similar type, we can do so as well. This looks nice on the website.
-# option_groups = [
+ #option_groups = [
 #     OptionGroup(
 #         "Gameplay Options",
 #         [HardMode, Hammer, ExtraStartingChest, StartWithOneConfettiCannon, TrapChance],
